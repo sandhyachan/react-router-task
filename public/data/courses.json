@@ -1,0 +1,312 @@
+{
+    "courses": {
+      "All": [
+        {
+          "title": "MERN Stack Development",
+          "category": "Full Stack Development",
+          "imageSrc": "https://via.placeholder.com/150"
+        },
+        {
+          "title": "MEAN Stack Development",
+          "category": "Full Stack Development",
+          "imageSrc": "https://via.placeholder.com/150"
+        },
+        {
+          "title": "Java Full Stack Development",
+          "category": "Full Stack Development",
+          "imageSrc": "https://via.placeholder.com/150"
+        },
+        {
+          "title": "Python Full Stack Development",
+          "category": "Full Stack Development",
+          "imageSrc": "https://via.placeholder.com/150"
+        },
+        {
+          "title": "PHP Full Stack Development",
+          "category": "Full Stack Development",
+          "imageSrc": "https://via.placeholder.com/150"
+        },
+        {
+          "title": "Ruby on Rails Development",
+          "category": "Full Stack Development",
+          "imageSrc": "https://via.placeholder.com/150"
+        },
+        {
+          "title": "React.js Development",
+          "category": "Full Stack Development",
+          "imageSrc": "https://via.placeholder.com/150"
+        },
+        {
+          "title": "Angular Development",
+          "category": "Full Stack Development",
+          "imageSrc": "https://via.placeholder.com/150"
+        },
+        {
+          "title": "Node.js Development",
+          "category": "Full Stack Development",
+          "imageSrc": "https://via.placeholder.com/150"
+        },
+        {
+          "title": "Data Science with Python",
+          "category": "Data Science",
+          "imageSrc": "https://via.placeholder.com/150"
+        },
+        {
+          "title": "Data Science with R",
+          "category": "Data Science",
+          "imageSrc": "https://via.placeholder.com/150"
+        },
+        {
+          "title": "Machine Learning",
+          "category": "Data Science",
+          "imageSrc": "https://via.placeholder.com/150"
+        },
+        {
+          "title": "Deep Learning",
+          "category": "Data Science",
+          "imageSrc": "https://via.placeholder.com/150"
+        },
+        {
+          "title": "Data Visualization with Tableau",
+          "category": "Data Science",
+          "imageSrc": "https://via.placeholder.com/150"
+        },
+        {
+          "title": "Big Data Analytics",
+          "category": "Data Science",
+          "imageSrc": "https://via.placeholder.com/150"
+        },
+        {
+          "title": "SQL for Data Science",
+          "category": "Data Science",
+          "imageSrc": "https://via.placeholder.com/150"
+        },
+        {
+          "title": "Data Science Bootcamp",
+          "category": "Data Science",
+          "imageSrc": "https://via.placeholder.com/150"
+        },
+        {
+          "title": "Ethical Hacking",
+          "category": "Cyber Security",
+          "imageSrc": "https://via.placeholder.com/150"
+        },
+        {
+          "title": "Network Security",
+          "category": "Cyber Security",
+          "imageSrc": "https://via.placeholder.com/150"
+        },
+        {
+          "title": "Web Application Security",
+          "category": "Cyber Security",
+          "imageSrc": "https://via.placeholder.com/150"
+        },
+        {
+          "title": "Cloud Security",
+          "category": "Cyber Security",
+          "imageSrc": "https://via.placeholder.com/150"
+        },
+        {
+          "title": "Cyber Security Fundamentals",
+          "category": "Cyber Security",
+          "imageSrc": "https://via.placeholder.com/150"
+        },
+        {
+          "title": "Penetration Testing",
+          "category": "Cyber Security",
+          "imageSrc": "https://via.placeholder.com/150"
+        },
+        {
+          "title": "Security Operations Center (SOC)",
+          "category": "Cyber Security",
+          "imageSrc": "https://via.placeholder.com/150"
+        },
+        {
+          "title": "Certified Information Systems Security Professional (CISSP)",
+          "category": "Cyber Security",
+          "imageSrc": "https://via.placeholder.com/150"
+        },
+        {
+          "title": "Resume Writing Workshop",
+          "category": "Career Development",
+          "imageSrc": "https://via.placeholder.com/150"
+        },
+        {
+          "title": "Interview Preparation",
+          "category": "Career Development",
+          "imageSrc": "https://via.placeholder.com/150"
+        },
+        {
+          "title": "Soft Skills Training",
+          "category": "Career Development",
+          "imageSrc": "https://via.placeholder.com/150"
+        },
+        {
+          "title": "Public Speaking",
+          "category": "Career Development",
+          "imageSrc": "https://via.placeholder.com/150"
+        },
+        {
+          "title": "LinkedIn Profile Optimization",
+          "category": "Career Development",
+          "imageSrc": "https://via.placeholder.com/150"
+        },
+        {
+          "title": "Networking Strategies",
+          "category": "Career Development",
+          "imageSrc": "https://via.placeholder.com/150"
+        },
+        {
+          "title": "Personal Branding",
+          "category": "Career Development",
+          "imageSrc": "https://via.placeholder.com/150"
+        },
+        {
+          "title": "Career Transition Strategies",
+          "category": "Career Development",
+          "imageSrc": "https://via.placeholder.com/150"
+        }
+      ],
+      "Full Stack Development": [
+        {
+          "title": "MERN Stack Development",
+          "imageSrc": "https://via.placeholder.com/150"
+        },
+        {
+          "title": "MEAN Stack Development",
+          "imageSrc": "https://via.placeholder.com/150"
+        },
+        {
+          "title": "Java Full Stack Development",
+          "imageSrc": "https://via.placeholder.com/150"
+        },
+        {
+          "title": "Python Full Stack Development",
+          "imageSrc": "https://via.placeholder.com/150"
+        },
+        {
+          "title": "PHP Full Stack Development",
+          "imageSrc": "https://via.placeholder.com/150"
+        },
+        {
+          "title": "Ruby on Rails Development",
+          "imageSrc": "https://via.placeholder.com/150"
+        },
+        {
+          "title": "React.js Development",
+          "imageSrc": "https://via.placeholder.com/150"
+        },
+        {
+          "title": "Angular Development",
+          "imageSrc": "https://via.placeholder.com/150"
+        },
+        {
+          "title": "Node.js Development",
+          "imageSrc": "https://via.placeholder.com/150"
+        }
+      ],
+      "Data Science": [
+        {
+          "title": "Data Science with Python",
+          "imageSrc": "https://via.placeholder.com/150"
+        },
+        {
+          "title": "Data Science with R",
+          "imageSrc": "https://via.placeholder.com/150"
+        },
+        {
+          "title": "Machine Learning",
+          "imageSrc": "https://via.placeholder.com/150"
+        },
+        {
+          "title": "Deep Learning",
+          "imageSrc": "https://via.placeholder.com/150"
+        },
+        {
+          "title": "Data Visualization with Tableau",
+          "imageSrc": "https://via.placeholder.com/150"
+        },
+        {
+          "title": "Big Data Analytics",
+          "imageSrc": "https://via.placeholder.com/150"
+        },
+        {
+          "title": "SQL for Data Science",
+          "imageSrc": "https://via.placeholder.com/150"
+        },
+        {
+          "title": "Data Science Bootcamp",
+          "imageSrc": "https://via.placeholder.com/150"
+        }
+      ],
+      "Cyber Security": [
+        {
+          "title": "Ethical Hacking",
+          "imageSrc": "https://via.placeholder.com/150"
+        },
+        {
+          "title": "Network Security",
+          "imageSrc": "https://via.placeholder.com/150"
+        },
+        {
+          "title": "Web Application Security",
+          "imageSrc": "https://via.placeholder.com/150"
+        },
+        {
+          "title": "Cloud Security",
+          "imageSrc": "https://via.placeholder.com/150"
+        },
+        {
+          "title": "Cyber Security Fundamentals",
+          "imageSrc": "https://via.placeholder.com/150"
+        },
+        {
+          "title": "Penetration Testing",
+          "imageSrc": "https://via.placeholder.com/150"
+        },
+        {
+          "title": "Security Operations Center (SOC)",
+          "imageSrc": "https://via.placeholder.com/150"
+        },
+        {
+          "title": "Certified Information Systems Security Professional (CISSP)",
+          "imageSrc": "https://via.placeholder.com/150"
+        }
+      ],
+      "Career Development": [
+        {
+          "title": "Resume Writing Workshop",
+          "imageSrc": "https://via.placeholder.com/150"
+        },
+        {
+          "title": "Interview Preparation",
+          "imageSrc": "https://via.placeholder.com/150"
+        },
+        {
+          "title": "Soft Skills Training",
+          "imageSrc": "https://via.placeholder.com/150"
+        },
+        {
+          "title": "Public Speaking",
+          "imageSrc": "https://via.placeholder.com/150"
+        },
+        {
+          "title": "LinkedIn Profile Optimization",
+          "imageSrc": "https://via.placeholder.com/150"
+        },
+        {
+          "title": "Networking Strategies",
+          "imageSrc": "https://via.placeholder.com/150"
+        },
+        {
+          "title": "Personal Branding",
+          "imageSrc": "https://via.placeholder.com/150"
+        },
+        {
+          "title": "Career Transition Strategies",
+          "imageSrc": "https://via.placeholder.com/150"
+        }
+      ]
+    }
+  }
+  
