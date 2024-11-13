@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 export default function CyberSecurity () {
     const [courses, setCourses] = useState([])
     useEffect(()=>{
-      fetch('/courses.json')
+      fetch('https://raw.githubusercontent.com/sandhyachan/react-router-task/3f866889834d52f31b2ad599ee1c0c93d29cbe45/public/courses.json')
       .then((response)=>response.json())
       .then((result)=> {setCourses(result['Cyber Security'])})
       .catch((err)=>console.log(err))
