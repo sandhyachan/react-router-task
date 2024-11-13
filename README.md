@@ -20,12 +20,12 @@ The objective of this task is to create a web page with routes using **react-rou
 
 1. **Clone the repository**:
     ```bash
-    git clone <repository_url>
+    git clone https://github.com/sandhyachan/react-router-task.git
     ```
 
 2. **Install dependencies**:
     ```bash
-    cd <project_folder>
+    cd reactrouter
     npm install
     ```
 
