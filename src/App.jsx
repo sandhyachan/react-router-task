@@ -1,6 +1,6 @@
 import './App.css'
 import Navbar from './components/Navbar'
-import { Link } from 'react-router-dom'
+import { Link, Route, Routes } from 'react-router-dom'
 import All from './pages/All'
 import Career from './pages/Career'
 import CyberSecurity from './pages/CyberSecurity'
@@ -19,7 +19,7 @@ function App() {
       <Link to=''><button type="button" className="btn btn-hover">All</button></Link>
       </section>
       <section className='col-3'>
-      <Link to='/fullstackdevelopment'><button type="button" className="btn">Full Stack Development</button></Link>
+      <Link to='/fullstack'><button type="button" className="btn">Full Stack Development</button></Link>
       </section>
       <section className='col-2'>
       <Link to='/datascience'><button type="button" className="btn">Data Science</button></Link>
@@ -31,11 +31,13 @@ function App() {
       <Link to='/career'><button type="button" className="btn">Career</button></Link>
       </section>
       </div>
-      <All/>
-      <Career/>
-      <CyberSecurity/>
-      <DataScience/>
-      <FullStack/>
+      <Routes>
+      <Route Component={All} path='/'/>
+      <Route Component={Career} path='/career'/>
+      <Route Component={CyberSecurity} path='/cybersecurity'/>
+      <Route Component={DataScience} path='/datascience'/>
+      <Route Component={FullStack} path='/fullstack'/>
+      </Routes>
     </div>
     </>
   )

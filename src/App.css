@@ -1,0 +1,5 @@
+.card-img-top-custom {
+    height: 220px;
+    object-fit: cover; /* Ensure it scales nicely */
+    max-width: 100%;
+  }
