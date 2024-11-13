@@ -1,8 +1,45 @@
-# React + Vite
+# React Router Task
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+This project implements a simple web page using **React Router** for navigation. The application displays different course categories such as **All**, **Full Stack Development**, **Data Science**, **Cyber Security**, and **Career**. Each category is shown on a separate route with corresponding content displayed dynamically based on the data fetched from a JSON file.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The layout and navigation mimic the design seen on the [Guvi Blog](https://www.guvi.in/blog/), with a responsive grid of cards representing courses.
+
+## Task Description
+
+The objective of this task is to create a web page with routes using **react-router-dom**. The navigation menu is designed to dynamically render course categories and display course cards for each category based on the data fetched from a local JSON file.
+
+### Features
+- **React Router** for navigation between different course categories
+- **Dynamic course card rendering** based on data fetched from JSON
+- Responsive grid layout to display course cards
+- Separate components for each course category (`All`, `Full Stack Development`, `Data Science`, `Cyber Security`, and `Career`)
+  
+## Setup
+
+1. **Clone the repository**:
+    ```bash
+    git clone <repository_url>
+    ```
+
+2. **Install dependencies**:
+    ```bash
+    cd <project_folder>
+    npm install
+    ```
+
+3. **Run the development server**:
+    ```bash
+    npm run dev
+    ```
+
+    Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+## Dependencies
+- **react-router-dom**: For handling routing and navigation.
+- **bootstrap**: For styling the layout.
+
+
+## Acknowledgements
+- The design and layout are inspired by the [Guvi Blog](https://www.guvi.in/blog/).
