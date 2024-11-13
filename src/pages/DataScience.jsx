@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 export default function DataScience () {
     const [courses, setCourses] = useState([])
     useEffect(()=>{
-      fetch('http://localhost:5173/courses.json')
+      fetch('/courses.json')
       .then((response)=>response.json())
       .then((result)=> {setCourses(result['Data Science'])})
       .catch((err)=>console.log(err))

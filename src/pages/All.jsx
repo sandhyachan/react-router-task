@@ -5,7 +5,7 @@ import '../App.css'
 export default function All () {
     const [courses, setCourses] = useState([])
     useEffect(()=>{
-      fetch('http://localhost:5173/courses.json')
+      fetch('/courses.json')
       .then((response)=>response.json())
       .then((result)=> {setCourses(result.All)})
       .catch((err)=>console.log(err))

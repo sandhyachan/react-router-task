@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 export default function Career () {
     const [courses, setCourses] = useState([])
     useEffect(()=>{
-      fetch('http://localhost:5173/courses.json')
+      fetch('/courses.json')
       .then((response)=>response.json())
       .then((result)=> {setCourses(result.Career)})
       .catch((err)=>console.log(err))

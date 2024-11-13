@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 export default function CyberSecurity () {
     const [courses, setCourses] = useState([])
     useEffect(()=>{
-      fetch('http://localhost:5173/courses.json')
+      fetch('/courses.json')
       .then((response)=>response.json())
       .then((result)=> {setCourses(result['Cyber Security'])})
       .catch((err)=>console.log(err))
