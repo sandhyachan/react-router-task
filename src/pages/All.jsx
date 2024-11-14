@@ -1,16 +1,10 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import '../App.css'
+import { courseData } from '../components/CourseData';
 
 export default function All () {
-    const [courses, setCourses] = useState([])
-    useEffect(()=>{
-      fetch('https://raw.githubusercontent.com/sandhyachan/react-router-task/3f866889834d52f31b2ad599ee1c0c93d29cbe45/public/courses.json')
-      .then((response)=>response.json())
-      .then((result)=> {setCourses(result.All)})
-      .catch((err)=>console.log(err))
-    },[])
-    
+  const [courses] = useState(courseData.All)
 
     return <>
     <div className='row justify-content-center'>
